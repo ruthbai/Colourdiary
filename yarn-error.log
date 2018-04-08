@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js knex seed:run
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js start
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -536,6 +536,10 @@ Lockfile:
       split-string "^3.0.2"
       to-regex "^3.0.1"
   
+  breeze@0.4.x:
+    version "0.4.0"
+    resolved "https://registry.yarnpkg.com/breeze/-/breeze-0.4.0.tgz#de70bc3ab235a775f59e7d6ee97f4e9023140571"
+  
   browser-process-hrtime@^0.1.2:
     version "0.1.2"
     resolved "https://registry.yarnpkg.com/browser-process-hrtime/-/browser-process-hrtime-0.1.2.tgz#425d68a58d3447f02a04aa894187fce8af8b7b8e"
@@ -725,7 +729,7 @@ Lockfile:
     version "3.1.0"
     resolved "https://registry.yarnpkg.com/compare-versions/-/compare-versions-3.1.0.tgz#43310256a5c555aaed4193c04d8f154cf9c6efd5"
   
-  component-emitter@^1.2.1:
+  component-emitter@^1.2.0, component-emitter@^1.2.1:
     version "1.2.1"
     resolved "https://registry.yarnpkg.com/component-emitter/-/component-emitter-1.2.1.tgz#137918d6d78283f7df7a6b7c5a63e140e69425e6"
   
@@ -767,6 +771,10 @@ Lockfile:
   cookie@0.3.1:
     version "0.3.1"
     resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
+  
+  cookiejar@^2.1.0:
+    version "2.1.1"
+    resolved "https://registry.yarnpkg.com/cookiejar/-/cookiejar-2.1.1.tgz#41ad57b1b555951ec171412a81942b1e8200d34a"
   
   copy-descriptor@^0.1.0:
     version "0.1.1"
@@ -947,6 +955,14 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-4.2.0.tgz#1f19e0c2e1aa0e32797c49799f2837ac6af69c57"
     dependencies:
       is-obj "^1.0.0"
+  
+  dragonfly@0.2.x:
+    version "0.2.1"
+    resolved "https://registry.yarnpkg.com/dragonfly/-/dragonfly-0.2.1.tgz#d2709d0a842c80147be733e209279e0bb5625717"
+  
+  drip@0.3.x:
+    version "0.3.1"
+    resolved "https://registry.yarnpkg.com/drip/-/drip-0.3.1.tgz#a690a12c0ae2299046558f94cad1475d36746486"
   
   duplexer3@^0.1.4:
     version "0.1.4"
@@ -1235,6 +1251,10 @@ Lockfile:
       repeat-string "^1.6.1"
       to-regex-range "^2.1.0"
   
+  filtr@0.3.x:
+    version "0.3.0"
+    resolved "https://registry.yarnpkg.com/filtr/-/filtr-0.3.0.tgz#957f8382e72a9efd97502150aa8cc6f488f9c62c"
+  
   finalhandler@1.1.1:
     version "1.1.1"
     resolved "https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.1.1.tgz#eebf4ed840079c83f4249038c9d703008301b105"
@@ -1307,6 +1327,14 @@ Lockfile:
     version "0.6.1"
     resolved "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
   
+  form-data@^2.3.1, form-data@~2.3.1:
+    version "2.3.2"
+    resolved "https://registry.yarnpkg.com/form-data/-/form-data-2.3.2.tgz#4970498be604c20c005d4f5c23aecd21d6b49099"
+    dependencies:
+      asynckit "^0.4.0"
+      combined-stream "1.0.6"
+      mime-types "^2.1.12"
+  
   form-data@~2.1.1:
     version "2.1.4"
     resolved "https://registry.yarnpkg.com/form-data/-/form-data-2.1.4.tgz#33c183acf193276ecaa98143a69e94bfee1750d1"
@@ -1315,13 +1343,9 @@ Lockfile:
       combined-stream "^1.0.5"
       mime-types "^2.1.12"
   
-  form-data@~2.3.1:
-    version "2.3.2"
-    resolved "https://registry.yarnpkg.com/form-data/-/form-data-2.3.2.tgz#4970498be604c20c005d4f5c23aecd21d6b49099"
-    dependencies:
-      asynckit "^0.4.0"
-      combined-stream "1.0.6"
-      mime-types "^2.1.12"
+  formidable@^1.1.1:
+    version "1.2.1"
+    resolved "https://registry.yarnpkg.com/formidable/-/formidable-1.2.1.tgz#70fb7ca0290ee6ff961090415f4b3df3d2082659"
   
   forwarded@~0.1.2:
     version "0.1.2"
@@ -2624,7 +2648,7 @@ Lockfile:
     version "1.2.0"
     resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.0.tgz#7531e39d4949c281a66b8c5a6e0265e8b05894da"
   
-  methods@~1.1.2:
+  methods@^1.1.1, methods@~1.1.2:
     version "1.1.2"
     resolved "https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   
@@ -2677,6 +2701,10 @@ Lockfile:
   mime@1.4.1:
     version "1.4.1"
     resolved "https://registry.yarnpkg.com/mime/-/mime-1.4.1.tgz#121f9ebc49e3766f311a76e1fa1c8003c4b03aa6"
+  
+  mime@^1.4.1:
+    version "1.6.0"
+    resolved "https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
   
   mimic-fn@^1.0.0:
     version "1.2.0"
@@ -2891,6 +2919,10 @@ Lockfile:
   nwmatcher@^1.4.3:
     version "1.4.4"
     resolved "https://registry.yarnpkg.com/nwmatcher/-/nwmatcher-1.4.4.tgz#2285631f34a95f0d0395cd900c96ed39b58f346e"
+  
+  oath@0.2.x:
+    version "0.2.3"
+    resolved "https://registry.yarnpkg.com/oath/-/oath-0.2.3.tgz#cd44fc6124fcf9cb65aca60eba05c51f3da0019e"
   
   oauth-sign@~0.8.1, oauth-sign@~0.8.2:
     version "0.8.2"
@@ -3246,7 +3278,7 @@ Lockfile:
     version "2.1.0"
     resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.0.tgz#5f863edc89b96db09074bad7947bf09056ca4e7d"
   
-  qs@6.5.1, qs@~6.5.1:
+  qs@6.5.1, qs@^6.5.1, qs@~6.5.1:
     version "6.5.1"
     resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
   
@@ -3310,7 +3342,7 @@ Lockfile:
       string_decoder "~1.0.3"
       util-deprecate "~1.0.1"
   
-  readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.4:
+  readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4:
     version "2.3.6"
     resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
     dependencies:
@@ -3562,6 +3594,18 @@ Lockfile:
     version "1.2.4"
     resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   
+  seed@^0.4.4:
+    version "0.4.4"
+    resolved "https://registry.yarnpkg.com/seed/-/seed-0.4.4.tgz#750c371289d94527c6eb6541d85a8d81bd93d2f3"
+    dependencies:
+      breeze "0.4.x"
+      dragonfly "0.2.x"
+      drip "0.3.x"
+      filtr "0.3.x"
+      oath "0.2.x"
+      sol "0.3.x"
+      super "0.2.x"
+  
   semver-diff@^2.0.0:
     version "2.1.0"
     resolved "https://registry.yarnpkg.com/semver-diff/-/semver-diff-2.1.0.tgz#4bbb8437c8d37e4b0cf1a68fd726ec6d645d6d36"
@@ -3693,6 +3737,10 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/sntp/-/sntp-2.1.0.tgz#2c6cec14fedc2222739caf9b5c3d85d1cc5a2cc8"
     dependencies:
       hoek "4.x.x"
+  
+  sol@0.3.x:
+    version "0.3.0"
+    resolved "https://registry.yarnpkg.com/sol/-/sol-0.3.0.tgz#99ded0367e5d58b4c5bf4f873260a7a1ea8fd611"
   
   source-map-resolve@^0.5.0:
     version "0.5.1"
@@ -3889,6 +3937,32 @@ Lockfile:
   strip-json-comments@~2.0.1:
     version "2.0.1"
     resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
+  
+  super@0.2.x:
+    version "0.2.3"
+    resolved "https://registry.yarnpkg.com/super/-/super-0.2.3.tgz#a6695c1dce00ff58432a63e8b9ce268932b42c61"
+  
+  superagent@^3.0.0:
+    version "3.8.2"
+    resolved "https://registry.yarnpkg.com/superagent/-/superagent-3.8.2.tgz#e4a11b9d047f7d3efeb3bbe536d9ec0021d16403"
+    dependencies:
+      component-emitter "^1.2.0"
+      cookiejar "^2.1.0"
+      debug "^3.1.0"
+      extend "^3.0.0"
+      form-data "^2.3.1"
+      formidable "^1.1.1"
+      methods "^1.1.1"
+      mime "^1.4.1"
+      qs "^6.5.1"
+      readable-stream "^2.0.5"
+  
+  supertest@^3.0.0:
+    version "3.0.0"
+    resolved "https://registry.yarnpkg.com/supertest/-/supertest-3.0.0.tgz#8d4bb68fd1830ee07033b1c5a5a9a4021c965296"
+    dependencies:
+      methods "~1.1.2"
+      superagent "^3.0.0"
   
   supports-color@^2.0.0:
     version "2.0.0"
@@ -4368,7 +4442,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c knex seed:run
+  Arguments: -c node server.js
   Directory: /Users/minjooruthbai/Desktop/EDA/Colourdiary
   Output:
   
