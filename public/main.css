@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
     background-image: url('bg.jpg');
     background-size: cover;
   }
@@ -12,8 +12,16 @@ body{
     margin-top: 70px;
   }
 
-  h1,h2,p{
-    color: rgb(116, 116, 116)
+  h1,h2{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    text-shadow: 1px 1px #9c9c9c;
+  }
+
+  p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(116, 116, 116);
+
   }
 
   li{
@@ -145,8 +153,8 @@ body{
   height:40px;
   width:40px;
   color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
+  font-size: 65%;
+  font-family: 'Roboto Condensed', sans-serif;
   border: none;
   float: left;
   /* display:inline-block;
@@ -157,8 +165,8 @@ body{
   height:40px;
   width:40px;
   color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
+  font-size: 65%;
+  font-family: 'Roboto Condensed', sans-serif;
   border: none;
   float: left;
 }
@@ -167,8 +175,8 @@ body{
   height:40px;
   width:40px;
   color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
+  font-size: 65%;
+  font-family: 'Roboto Condensed', sans-serif;
   border: none;
   float: left;
 }
@@ -177,8 +185,8 @@ body{
   height:40px;
   width:40px;
   color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
+   font-size: 65%;
+   font-family: 'Roboto Condensed', sans-serif;
   border: none;
   float: left;
 }
@@ -187,8 +195,8 @@ body{
   height:40px;
   width:40px;
   color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
+   font-size: 65%;
+   font-family: 'Roboto Condensed', sans-serif;
   border: none;
   float: left;
 }
@@ -200,8 +208,8 @@ body{
   height:40px;
   width:40px;
   color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
+   font-size: 65%;
+   font-family: 'Roboto Condensed', sans-serif;
   border: none;
   float: left;
 }
@@ -210,8 +218,9 @@ body{
     height:40px;
     width:40px;
     color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
+
+     font-size: 65%;
+     font-family: 'Roboto Condensed', sans-serif;
     border: none;
     float: left;
   }
@@ -220,8 +229,9 @@ body{
     height:40px;
     width:40px;
     color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
+
+     font-size: 65%;
+     font-family: 'Roboto Condensed', sans-serif;
     border: none;
     float: left;
   }
@@ -230,8 +240,9 @@ body{
     height:40px;
     width:40px;
     color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
+
+     font-size: 65%;
+     font-family: 'Roboto Condensed', sans-serif;
     border: none;
     float: left;
   }
@@ -240,8 +251,9 @@ body{
     height:40px;
     width:40px;
     color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
+
+     font-size: 65%;
+     font-family: 'Roboto Condensed', sans-serif;
     border: none;
     float: left;
     
@@ -255,8 +267,8 @@ body{
   height:40px;
   width:40px;
   color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
+   font-size: 65%;
+  font-family: 'Roboto Condensed', sans-serif;
   border: none;
   float: left;
 }
@@ -266,8 +278,9 @@ body{
     height:40px;
     width:40px;
     color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
+
+     font-size: 65%;
+  font-family: 'Roboto Condensed', sans-serif;
     border: none;
     float: left;
   }
@@ -276,8 +289,9 @@ body{
     height:40px;
     width:40px;
     color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
+
+     font-size: 65%;
+  font-family: 'Roboto Condensed', sans-serif;
     border: none;
     float: left;
   }
@@ -286,8 +300,9 @@ body{
     height:40px;
     width:40px;
     color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
+
+     font-size: 65%;
+  font-family: 'Roboto Condensed', sans-serif;
     border: none;
     float: left;
   }
@@ -296,8 +311,9 @@ body{
     height:40px;
     width:40px;
     color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
+
+     font-size: 65%;
+  font-family: 'Roboto Condensed', sans-serif;
     border: none;
     float: left;
   }
@@ -310,8 +326,8 @@ body{
   height:40px;
   width:40px;
   color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
+   font-size: 65%;
+  font-family: 'Roboto Condensed', sans-serif;
   border: none;
   float: left;
 }
@@ -320,8 +336,8 @@ body{
     height:40px;
     width:40px;
     color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
+    font-size: 65%;
+    font-family: 'Roboto Condensed', sans-serif;
     border: none;
     float: left;
   }
@@ -330,8 +346,9 @@ body{
     height:40px;
     width:40px;
     color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
+
+    font-size: 65%;
+    font-family: 'Roboto Condensed', sans-serif;
     border: none;
     float: left;
   }
@@ -340,8 +357,8 @@ body{
     height:40px;
     width:40px;
     color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
+    font-size: 65%;
+    font-family: 'Roboto Condensed', sans-serif;
     border: none;
     float: left;
   }
@@ -350,8 +367,8 @@ body{
     height:40px;
     width:40px;
     color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
+    font-size: 65%;
+    font-family: 'Roboto Condensed', sans-serif;
     border: none;
     float: left;
   }
