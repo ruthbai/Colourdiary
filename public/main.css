@@ -21,7 +21,6 @@ body{
   p{
     font-family: 'Roboto Condensed', sans-serif;
     color: rgb(116, 116, 116);
-
   }
 
   li{
@@ -31,8 +30,6 @@ body{
     color: rgb(116, 116, 116);
     margin-top:3%;
     margin-left: 33%;
-    /* display:inline-block;
-    width: 25%; */
   }
 
   
@@ -57,94 +54,6 @@ body{
     width: 160px;
     height: 160px;
   }
-/* 
-  div.content{
-    height: 30px;
-    width: 30px;
-    float: left;
-    margin: 10px;
-  }
-
-  div#boxed {
-    background-color: rgb(199, 255, 182);
-    
-  }
-  div#boxed1 {
-    background-color: rgb(21, 255, 0);
-    
-  }
-  div#boxed2 {
-    background-color: rgb(0, 189, 0);
-    
-  }
-  div#boxed3 {
-    background-color: rgb(0, 83, 0);
-    
-  }
-  div#boxed4 {
-    background-color: rgb(0, 58, 0);
-    
-  }
-  div#boxed5 {
-    background-color: rgb(182, 232, 255);
-    
-  }
-  div#boxed6 {
-    background-color: rgb(83, 201, 255);
-    
-  }
-  div#boxed7 {
-    background-color: rgb(0, 174, 255);
-    
-  }
-  div#boxed8 {
-    background-color: rgb(0, 103, 151);
-    
-  }
-  div#boxed9 {
-    background-color: rgb(0, 51, 75);
-    
-  }
-  div#boxed10 {
-    background-color: rgb(255, 246, 197);
-    
-  }
-  div#boxed11 {
-    background-color: rgb(255, 236, 125);
-    
-  }
-  div#boxed12 {
-    background-color: rgb(255, 217, 1);
-    
-  }
-  div#boxed13 {
-    background-color: rgb(255, 196, 0);
-    
-  }
-  div#boxed14 {
-    background-color: rgb(255, 174, 0);
-    
-  }
-  div#boxed15 {
-    background-color: rgb(255, 197, 197);
-    
-  }
-  div#boxed16 {
-    background-color: rgb(255, 125, 125);
-    
-  }
-  div#boxed17 {
-    background-color: rgb(255, 1, 1);
-    
-  }
-  div#boxed18 {
-    background-color: rgb(187, 0, 0);
-    
-  }
-  div#boxed19 {
-    background-color: rgb(107, 0, 0);
-    
-  } */
 
 
 
