@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
     background-image: url('bg.jpg');
     background-size: cover;
   }
@@ -12,8 +12,15 @@ body{
     margin-top: 70px;
   }
 
-  h1,h2,p{
-    color: rgb(116, 116, 116)
+  h1,h2{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    text-shadow: 1px 1px #9c9c9c;
+  }
+
+  p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(116, 116, 116);
   }
 
   li{
@@ -23,8 +30,6 @@ body{
     color: rgb(116, 116, 116);
     margin-top:3%;
     margin-left: 33%;
-    /* display:inline-block;
-    width: 25%; */
   }
 
   
@@ -49,318 +54,98 @@ body{
     width: 160px;
     height: 160px;
   }
-/* 
-  div.content{
-    height: 30px;
-    width: 30px;
-    float: left;
-    margin: 10px;
+
+
+
+
+  .row {
+    width:80%;
   }
 
-  div#boxed {
-    background-color: rgb(199, 255, 182);
-    
+  .button{
+    height:40px;
+    width:40px;
+    color: white;
+    font-size: 65%;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    vertical-align: top;
+    text-shadow: 1px 1px #9c9c9c;
   }
-  div#boxed1 {
-    background-color: rgb(21, 255, 0);
-    
-  }
-  div#boxed2 {
-    background-color: rgb(0, 189, 0);
-    
-  }
-  div#boxed3 {
-    background-color: rgb(0, 83, 0);
-    
-  }
-  div#boxed4 {
-    background-color: rgb(0, 58, 0);
-    
-  }
-  div#boxed5 {
-    background-color: rgb(182, 232, 255);
-    
-  }
-  div#boxed6 {
-    background-color: rgb(83, 201, 255);
-    
-  }
-  div#boxed7 {
-    background-color: rgb(0, 174, 255);
-    
-  }
-  div#boxed8 {
-    background-color: rgb(0, 103, 151);
-    
-  }
-  div#boxed9 {
-    background-color: rgb(0, 51, 75);
-    
-  }
-  div#boxed10 {
-    background-color: rgb(255, 246, 197);
-    
-  }
-  div#boxed11 {
-    background-color: rgb(255, 236, 125);
-    
-  }
-  div#boxed12 {
-    background-color: rgb(255, 217, 1);
-    
-  }
-  div#boxed13 {
-    background-color: rgb(255, 196, 0);
-    
-  }
-  div#boxed14 {
-    background-color: rgb(255, 174, 0);
-    
-  }
-  div#boxed15 {
-    background-color: rgb(255, 197, 197);
-    
-  }
-  div#boxed16 {
-    background-color: rgb(255, 125, 125);
-    
-  }
-  div#boxed17 {
-    background-color: rgb(255, 1, 1);
-    
-  }
-  div#boxed18 {
-    background-color: rgb(187, 0, 0);
-    
-  }
-  div#boxed19 {
-    background-color: rgb(107, 0, 0);
-    
-  } */
 
+  .button:hover {
+    opacity: 0.5;
+    color: white;
+    }
 
 
   .button1{
   background-color: rgb(169, 224, 255);
-  height:40px;
-  width:40px;
-  color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
-  border: none;
-  float: left;
-  /* display:inline-block;
-  width: 75%; */
   }
   .button12{
   background-color: rgb(91, 195, 255);
-  height:40px;
-  width:40px;
-  color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
-  border: none;
-  float: left;
-}
+  }
   .button13{
   background-color: rgb(0, 162, 255);
-  height:40px;
-  width:40px;
-  color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
-  border: none;
-  float: left;
-}
+  }
   .button14{
   background-color: rgb(0, 98, 155);
-  height:40px;
-  width:40px;
-  color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
-  border: none;
-  float: left;
-}
+  }
   .button15{
   background-color: rgb(0, 40, 63);
-  height:40px;
-  width:40px;
-  color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
-  border: none;
-  float: left;
-}
+  }
 
 
 
   .button2{
   background-color: rgb(254, 255, 177);
-  height:40px;
-  width:40px;
-  color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
-  border: none;
-  float: left;
-}
+  }
   .button22{
-    background-color: rgb(253, 255, 107);
-    height:40px;
-    width:40px;
-    color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
-    border: none;
-    float: left;
+  background-color: rgb(253, 255, 107);
   }
-    .button23{
-    background-color: rgb(251, 255, 0);
-    height:40px;
-    width:40px;
-    color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
-    border: none;
-    float: left;
+  .button23{
+  background-color: rgb(251, 255, 0);
   }
-    .button24{
-    background-color: rgb(255, 230, 0);
-    height:40px;
-    width:40px;
-    color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
-    border: none;
-    float: left;
+  .button24{
+  background-color: rgb(255, 230, 0);
   }
-    .button25{
-    background-color: rgb(255, 187, 0);
-    height:40px;
-    width:40px;
-    color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
-    border: none;
-    float: left;
-    
+  .button25{
+  background-color: rgb(255, 187, 0);
   }
-
 
 
 
   .button3{
   background-color: rgb(255, 190, 190);
-  height:40px;
-  width:40px;
-  color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
-  border: none;
-  float: left;
-}
+  }
 
   .button32{
-    background-color: rgb(255, 115, 115);
-    height:40px;
-    width:40px;
-    color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
-    border: none;
-    float: left;
+  background-color: rgb(255, 115, 115);
   }
-    .button33{
-    background-color: rgb(255, 0, 0);
-    height:40px;
-    width:40px;
-    color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
-    border: none;
-    float: left;
+  .button33{
+  background-color: rgb(255, 0, 0);
   }
-    .button34{
-    background-color: rgb(148, 0, 0);
-    height:40px;
-    width:40px;
-    color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
-    border: none;
-    float: left;
+  .button34{
+  background-color: rgb(148, 0, 0);
   }
-    .button35{
-    background-color: rgb(97, 0, 0);
-    height:40px;
-    width:40px;
-    color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
-    border: none;
-    float: left;
+  .button35{
+  background-color: rgb(97, 0, 0);
   }
-
-
 
 
   .button4{
   background-color: rgb(200, 255, 179);
-  height:40px;
-  width:40px;
-  color: white;
-  text-shadow: 1px 1px #c4c4c4;
-  font-family: 'Playfair Display', serif;
-  border: none;
-  float: left;
-}
+  }
   .button42{
-    background-color: rgb(131, 255, 82);
-    height:40px;
-    width:40px;
-    color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
-    border: none;
-    float: left;
+  background-color: rgb(131, 255, 82);
   }
-    .button43{
-    background-color: rgb(72, 255, 0);
-    height:40px;
-    width:40px;
-    color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
-    border: none;
-    float: left;
+  .button43{
+  background-color: rgb(72, 255, 0);
   }
-    .button44{
-    background-color: rgb(41, 146, 0);
-    height:40px;
-    width:40px;
-    color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
-    border: none;
-    float: left;
+  .button44{
+  background-color: rgb(41, 146, 0);
   }
-    .button45{
-    background-color: rgb(25, 88, 0);
-    height:40px;
-    width:40px;
-    color: white;
-    text-shadow: 1px 1px #c4c4c4;
-    font-family: 'Playfair Display', serif;
-    border: none;
-    float: left;
+  .button45{
+  background-color: rgb(25, 88, 0);
   }
 
-
-
-
-
-  .button:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
-  }
